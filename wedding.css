@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #f4a8c4;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('wedding.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: white;
+}
+
+.btn {
+    background: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-item {
+    width: 30%;
+    background: #fff0f5;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+footer {
+
+    background: #f4a8c4;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+#scanner{
+    background: #f4a8c4;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
